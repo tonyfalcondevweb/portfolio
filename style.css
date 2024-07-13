@@ -169,7 +169,7 @@ header {
 
 .nav-anime-hidden {
     opacity: 0;
-    background-color: white;
+    background-color: var(--whitecolor);
     width: 60%;
     height: 5px;
     border-radius: 15px;
@@ -259,10 +259,17 @@ header {
 /* Text*/
 .bloc-text {
     display: flex;
-    align-items: center;
-    width: 45rem;
-    font-size: 1.2rem;
+    flex-direction: column;
+    height: 430px;
+    width: 55rem;
+    font-size: 1.4rem;
     line-height: 33px;
+    color: var(--whitecolor);
+}
+
+.profil-strong {
+    color: var(--beige-bg-light);
+    letter-spacing: 1.2px;
 }
 /* Text*/
 /* Fin Profil */
@@ -428,8 +435,17 @@ header {
 
 /* Début Projet */
 .projets {
+    color: var(--whitecolor);
     background-color: var(--brown-bg);
-    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    overflow: hidden;
+}
+
+.titre-temp {
+    color: var(--whitecolor);
 }
 /* Fin Projet */
 
