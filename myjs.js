@@ -1,9 +1,4 @@
 
-
-
-
-
-
 // animation slide
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -49,6 +44,10 @@ hiddenElements.forEach((el) => observer.observe(el));
 // animation slide
 
 
+
+
+// Navbar
+// Place une barre animé "nav-anime-active" sous le menu survolé
 var obs = new IntersectionObserver((entries) => {
 
     
@@ -76,6 +75,7 @@ var obs = new IntersectionObserver((entries) => {
 const take = document.querySelectorAll('section');
 
 take.forEach((el) => obs.observe(el));
+// Navbar
 
 
 
